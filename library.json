@@ -1,0 +1,45 @@
+{
+    "name": "TA.Arduino.CadencedIndicator",
+    "version": "1.0.0",
+    "description": "A simple-to-use library for turning digital outputs on and off in a regular repeating pattern. Ideally suited to LED status indicators.",
+    "keywords": "timing, timer, timeout, ui, human scale, LED, indicator, cadence, blink",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Tigra-Astronomy/TA.Arduino.CadencedIndicator"
+    },
+    "authors": [
+        {
+            "name": "Tim Long (Tigra Astronomy)",
+            "email": "Tim@tigra-astronomy.com",
+            "url": "https://github.com/sponsors/NameOfTheDragon",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "examples": [
+        {
+            "name": "Heartbeat",
+            "base": "examples/heartbeat",
+            "files": [
+                "main.cpp"
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "owner": "nameofthedragon",
+            "name": "TA.Arduino.Timer",
+            "version": "^1.0.0"
+        },
+        {
+            "owner": "mmatera",
+            "name": "ArduinoSTL",
+            "version": "*",
+            "platforms": [
+                "atmelavr"
+            ]
+        }
+    ]
+}
