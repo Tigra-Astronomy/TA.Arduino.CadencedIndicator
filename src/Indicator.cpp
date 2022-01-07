@@ -1,10 +1,11 @@
 #include "CadencedIndicator.h"
 
-Indicator::Indicator(const int &pin, const CadencePattern &pattern) : pin(pin), pattern(pattern)
-{
-}
+Indicator::Indicator(const CadencePattern &pattern, std::function<void(bool)> stateChanger)
+    : pattern(pattern), invokeUserStateChange(stateChanger)
+    {
+    }
 
 void Indicator::setPattern(const CadencePattern &pattern)
-{
+    {
     this->pattern = pattern;
-}
+    }
