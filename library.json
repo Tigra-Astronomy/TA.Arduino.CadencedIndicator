@@ -1,6 +1,6 @@
 {
     "name": "TA.Arduino.CadencedIndicator",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "A simple-to-use library for turning digital outputs on and off in a regular repeating pattern. Ideally suited to LED status indicators.",
     "keywords": "timing, timer, timeout, ui, human scale, LED, indicator, cadence, blink",
     "repository": {
